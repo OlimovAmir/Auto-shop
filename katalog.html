@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <link rel="stylesheet" href="font-awesome/css/all.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Store</title>
+</head>
+
+<body>
+    <header class="container ">
+        <div class="row   align-items-end">
+            <div class="col-lg-5  ">
+                <nav class="navbar navbar-expand-lg navbar-light ">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>Menu 1
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarScroll">
+                            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+                                style="--bs-scroll-height: 100px;">
+                                <li class="nav-item btn">
+                                    <a class="nav-link active" aria-current="page"
+                                        href="#"><strong>Магазины</strong></a>
+                                </li>
+                                <li class="nav-item btn ">
+                                    <a class="nav-link" href="#"><strong>Акции</strong> </a>
+                                </li>
+
+                                <li class="nav-item btn ">
+                                    <a class="nav-link " href="#" tabindex="-1"><strong>Доставка и оплата</strong> </a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <!-- Лого шапка -->
+            <div class="col lg-2 text-center ">
+                <img src="./img/logo.svg" alt="">
+            </div>
+
+
+
+
+            <!-- ========== Шапка меню 2 ============== -->
+            <div class="col-lg-5 ">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>Menu 2
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarScroll">
+                            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll  "
+                                style="--bs-scroll-height: 100px;">
+                                <li class="nav-item btn ">
+                                    <a class="nav-link active" aria-current="page" href="#"><i
+                                            class="fa-solid fa-location-dot"></i> <strong> Москва, ул.Науки 25</strong>
+                                    </a>
+                                </li>
+
+                                <li class="nav-item ">
+                                <li class="nav-item btn">
+                                    <a class="nav-link " href="#" tabindex="-1"> <i class="fa-regular fa-heart"></i></a>
+                                </li>
+
+                                <li class="nav-item btn ">
+                                    <a class="nav-link " href="#" tabindex="-1"><i class="fa-solid fa-user-tie"></i></a>
+                                </li>
+                                <li class="nav-item btn">
+                                    <a class="nav-link " href="#" tabindex="-1"><i
+                                            class="fa-solid fa-cart-shopping"></i></a>
+                                </li>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+        </div>
+
+        <!-- Меню второго уровня -->
+
+        <div class="row mt-3">
+            <ul class="Block_menu  nav nav-pills mb-3  d-flex justify-content-between " id="pills-tab" role="tablist ">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active text-dark " id="pills-home-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                        aria-selected="true">Квадроциклы</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link text-dark " id="pills-profile-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                        aria-selected="false">Катера</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link text-dark" id="pills-contact-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                        aria-selected="false">Гидроциклы</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link text-dark" id="pills-contact-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-contact2" type="button" role="tab" aria-controls="pills-contact"
+                        aria-selected="false">Лодки</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link text-dark" id="pills-contact-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-contact3" type="button" role="tab" aria-controls="pills-contact"
+                        aria-selected="false">Вездеходы</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link text-dark" id="pills-contact-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-contact4" type="button" role="tab" aria-controls="pills-contact"
+                        aria-selected="false">Снегоходы</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link text-dark" id="pills-contact-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-contact5" type="button" role="tab" aria-controls="pills-contact"
+                        aria-selected="false">Двигатели</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link text-dark" id="pills-contact-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-contact6" type="button" role="tab" aria-controls="pills-contact"
+                        aria-selected="false">Запчасти</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+
+                <!-- path Путь -->
+                <div class="row">
+                    <div class="col-lg-12 path mt-4 mb-3 ">
+                        <a href="index.html">Главня</a> <i class="fa-solid fa-chevron-right"></i> <a
+                            href="">Гидроциклы</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 path mb-2 ">
+                        <h2>Гидроциклы</h2>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <input class="form-control" type="text" placeholder="Полноприводные">
+                            </div>
+                            <div class="col-lg-2">
+                                <input class="form-control" type="text" placeholder="от 5000">
+                            </div>
+                            <div class="col-lg-2">
+                                <input class="form-control" type="text" placeholder="BRP">
+                            </div>
+                            <div class="col-lg-2">
+                                <input class="form-control" type="text" placeholder="EЩE">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>По популярности</option>
+                                    <option value="1">По названию</option>
+                                    <option value="2">По марке</option>
+                                    <option value="3">По цене</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-2 text-center ">
+                                <i class="fa-solid fa-border-all"></i>
+                            </div>
+                            <div class="col-lg-2">
+                                <i class="fa-solid fa-bars"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--  range   -->
+
+
+
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+
+
+                    <div class="row  ">
+                        <div class="test col-lg-3">
+
+                            <!-- Первый блок, правая часть -->
+                            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="btn nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-home77" type="button" role="tab" aria-controls="pills-home"
+                                        aria-selected="true">ПАРАМЕТРЫ</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-profile88" type="button" role="tab"
+                                        aria-controls="pills-profile" aria-selected="false">ПО МАРКЕ</button>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="pills-home77" role="tabpanel"
+                                    aria-labelledby="pills-home-tab">
+
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <button class="btn" > <i class="fa-solid fa-angle-up"></i>  <i class="fa-solid fa-chevron-down"></i>Наличие </button>
+                                        </div>
+                                    </div>
+
+
+
+                                    <label for="customRange3" class="form-label">Example range</label>
+                                    <input type="range" class="form-range" min="0" max="100" step="1" id="r1" oninput="fun1()">
+                                    <p id="one"></p>
+                                    <input id="none2" type="number">
+                                    </div>
+
+
+                                <div class="tab-pane fade" id="pills-profile88" role="tabpanel"
+                                    aria-labelledby="pills-profile-tab">...</div>
+                            </div>
+
+
+                           
+                        </div>
+
+
+                        <!-- Sale -->
+                        <div class="col-lg-9 sale">
+                            <div class="title_top d-flex justify-content-between">
+                                <p class="title_topItem bg-primary text-white ">АКЦИЯ</p>
+                                <h4 class="fw-bold">190 000 &#8381; </h4>
+                            </div>
+                            <div class="col-lg-12  text-end">
+                                <span class="line ">225 000 &#8381;</span>
+                            </div>
+
+                            <div class="img text-center ">
+                                <img src="./img/img/motor.png" alt="">
+                            </div>
+                            <p class="text-center fw-bold "> Лодочный мотор <br> Suzuki DF9.9BRS</p>
+                            <div class="title_buttom text-center">
+                                <p>Акция действует до <br> <span class="fw-bold"> 31.08.2020 </span> </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- end slide 1  -->
+
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+
+                    <div class="row">
+                        <div class="col-lg-9">
+
+                            <div id="carouselExampleCaptions2" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleCaptions2"
+                                        data-bs-slide-to="0" class="active" aria-current="true"
+                                        aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleCaptions2"
+                                        data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleCaptions2"
+                                        data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <!-- Слайд -->
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="./img/img/слайдер баннер.png" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>First slide label</h5>
+                                            <p>Some representative placeholder content for the first slide.</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./img/img/слайдер баннер.png" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>Second slide label</h5>
+                                            <p>Some representative placeholder content for the second slide.</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./img/img/слайдер баннер.png" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>Third slide label</h5>
+                                            <p>Some representative placeholder content for the third slide.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExampleCaptions2" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleCaptions2" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                        <!-- Sale -->
+                        <div class="col-lg-3 sale">
+                            <div class=" title_top d-flex justify-content-between ">
+                                <p class="bg-primary text-white">АКЦИЯ</p>
+                                <p>190 000 P <br> <span class="text-decoration-line-through">225 000 P</span> </p>
+                            </div>
+                            <div class="img text-center ">
+                                <img src="./img/img/motor.png" alt="">
+                            </div>
+                            <p class="text-center"> Лодочный мотор <br> Suzuki DF9.9BRS</p>
+                            <div class="title_buttom text-center">
+                                <p>Акция действует до <br> <span class=""> 31.08.2020 </span> </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- конец слайда -->
+
+                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <!-- Слайд -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./img/img/слайдер баннер.png" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>First slide label</h5>
+                                    <p>Some representative placeholder content for the first slide.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/img/слайдер баннер.png" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Second slide label</h5>
+                                    <p>Some representative placeholder content for the second slide.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/img/слайдер баннер.png" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Third slide label</h5>
+                                    <p>Some representative placeholder content for the third slide.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="pills-contact2" role="tabpanel" aria-labelledby="pills-contact-tab">...
+                    Test </div>
+                <div class="tab-pane fade" id="pills-contact3" role="tabpanel" aria-labelledby="pills-contact-tab">...
+                    Test3 </div>
+                <div class="tab-pane fade" id="pills-contact4" role="tabpanel" aria-labelledby="pills-contact-tab">...
+                    Test4 </div>
+                <div class="tab-pane fade" id="pills-contact5" role="tabpanel" aria-labelledby="pills-contact-tab">...
+                    Test5 </div>
+                <div class="tab-pane fade" id="pills-contact6" role="tabpanel" aria-labelledby="pills-contact-tab">...
+                    Test6 </div>
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+    </header>
+
+    <div class="search mt-2">
+        <div class="container">
+            <ul class="nav nav-pills mb-2" id="pills-tab_" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-number" type="button" role="tab" aria-controls="pills-home"
+                        aria-selected="true">Поиск по номеру</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-tovar"
+                        type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Поиск по
+                        марке</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-name"
+                        type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Поиск по названию
+                        товара</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-number" role="tabpanel"
+                    aria-labelledby="pills-home-tab">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Введите номер"
+                            aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn btn-primary" type="button" id="button-addon2">Искать</button>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="pills-tovar" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Введите марку"
+                            aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn btn-primary" type="button" id="button-addon2">Искать</button>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-name" role="tabpanel" aria-labelledby="pills-contact-tab">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Введите название товара"
+                            aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn btn-primary" type="button" id="button-addon2">Искать</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Block 3 product slide    -->
+
+    <div class="container swiper" id="swiper">
+        <div class="row Block_3 swiper-wrapper" id="swiper-wrapper">
+            <div class="col-lg-4  slide2 text-center swiper-slide" id="swiper-slide1">
+                <div class="row d-flex slide2_Item align-items-center">
+                    <div class="col-lg-6 slide2_Item d-flex flex-column">
+                        <div class="  ">
+                            <h3>Квадроциклы</h3>
+                        </div>
+                        <div class=" mt-auto bd-highlight text-start">
+                            <a href="#">Подробнее <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6  ">
+                        <img src="./img/img/CFMOTO-X6-EPS_blue 1.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 slide2  text-center swiper-slide" id="swiper-slide1">
+                <div class="row d-flex slide2_Item align-items-center">
+                    <div class="col-lg-6 slide2_Item d-flex flex-column">
+                        <div class="  ">
+                            <h3>Гидроциклы</h3>
+                        </div>
+                        <div class=" mt-auto bd-highlight text-start">
+                            <a href="#">Подробнее <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6  ">
+                        <img src="./img/img/jet_ski_PNG90 1.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-4 slide2 text-center swiper-slide" id="swiper-slide1">
+                <div class="row d-flex slide2_Item align-items-center">
+                    <div class="col-lg-5 slide2_Item d-flex flex-column">
+                        <div class=" text-start">
+                            <h3>Катера</h3>
+                        </div>
+                        <div class=" mt-auto bd-highlight text-start">
+                            <a href="#">Подробнее <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7  ">
+                        <img src="./img/img/boat_PNG36 1.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-4 slide2 text-center swiper-slide" id="swiper-slide1">
+                <div class="row d-flex slide2_Item align-items-center">
+                    <div class="col-lg-5 slide2_Item d-flex flex-column">
+                        <div class=" text-start">
+                            <h3>Снегоходы</h3>
+                        </div>
+                        <div class=" mt-auto bd-highlight text-start">
+                            <a href="#">Подробнее <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7  ">
+                        <img src="./img/img/rmvector551 1.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-4 slide2 text-center swiper-slide" id="swiper-slide1">
+                <div class="row d-flex slide2_Item align-items-center">
+                    <div class="col-lg-5 slide2_Item d-flex flex-column">
+                        <div class=" text-start">
+                            <h3>Вездеходы</h3>
+                        </div>
+                        <div class=" mt-auto bd-highlight text-start">
+                            <a href="#">Подробнее <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7  "><img
+                            src="./img/img/2018-Maverick-X3-X-rc-TURBO-R-Carbon-Black-and-Octane-Blue_3-4-front4072 1.png"
+                            alt="">
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-4 slide2 text-center swiper-slide" id="swiper-slide1">
+                <div class="row d-flex slide2_Item align-items-center">
+                    <div class="col-lg-5 slide2_Item d-flex flex-column">
+                        <div class=" text-start">
+                            <h3>Двигатели</h3>
+                        </div>
+                        <div class=" mt-auto bd-highlight text-start">
+                            <a href="#">Подробнее <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7  "><img src="./img/img/images 1.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev" id="buttonPrev"></div>
+        <div class="swiper-button-next" id="buttonNext"></div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+
+
+    </div>
+
+    <!-- Популярные товары -->
+    <div class="container">
+        <div class="row">
+            <p>
+            <h3>Популярные товары</h3>
+            </p>
+        </div>
+
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home21"
+                    type="button" role="tab" aria-controls="pills-home" aria-selected="true">ЗАПЧАСТИ</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile22"
+                    type="button" role="tab" aria-controls="pills-profile" aria-selected="false">МОТОРЫ</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact23"
+                    type="button" role="tab" aria-controls="pills-contact" aria-selected="false">ШИНЫ</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home24"
+                    type="button" role="tab" aria-controls="pills-home" aria-selected="true">ЭЛЕКТРОНИКА</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile25"
+                    type="button" role="tab" aria-controls="pills-profile" aria-selected="false">ИНСТРУМЕНТЫ</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact26"
+                    type="button" role="tab" aria-controls="pills-contact" aria-selected="false">АКСЕСУАРЫ</button>
+            </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home21" role="tabpanel" aria-labelledby="pills-home-tab">
+                <div class="swiper" id="swiper2">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide blockSlide ">
+                            <div class=" text-end">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                            <div class=" text-center ">
+                                <img src="./img/img/cq5dam.web.768_1.png" alt="">
+                            </div>
+                            <div class=" text-center">
+                                <p>Водонепроницаемый <br> Рюкзак</p>
+                            </div>
+                            <div class=" text-center">
+                                <h3 class="fw-bold">9 800 &#8381;</h3>
+                            </div>
+                            <div class="icon text-end ">
+                                <div class="blockIcon">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </div>
+                            </div>
+                            <div class="SeeMore">
+                                <h6 class="text-dark">посмотреть товар</h6>
+                            </div>
+                        </div>
+                        <div class="swiper-slide blockSlide">
+                            <div class=" sale-product ">
+                                <div class="text-white">SALE</div>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                            <div class=" text-center ">
+                                <img src="./img/img/55a4f760715a1_1.png" alt="">
+                            </div>
+                            <div class=" text-center">
+                                <p>Спасательный жилет BRP <br> Men`s Airflow PFD</p>
+                            </div>
+                            <div class=" text-center">
+                                <h3 class="fw-bold">6 900 &#8381;</h3>
+                            </div>
+                            <div class="icon text-end ">
+                                <div class="blockIcon">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </div>
+                            </div>
+                            <div class="SeeMore">
+                                <h6 class="text-dark">посмотреть товар</h6>
+                            </div>
+                        </div>
+                        <div class="swiper-slide blockSlide">
+                            <div class=" text-end">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                            <div class=" text-center ">
+                                <img src="./img/img/s-l225_1.png" alt="">
+                            </div>
+                            <div class=" text-center">
+                                <p>BRP Audio-Premium <br> System</p>
+                            </div>
+                            <div class=" text-center ">
+                                <h3 class="fw-bold">68 000 &#8381;</h3>
+                            </div>
+                            <div class="icon text-end ">
+                                <div class="blockIcon">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </div>
+                            </div>
+                            <div class="SeeMore">
+                                <h6 class="text-dark">посмотреть товар</h6>
+                            </div>
+                        </div>
+                        <div class="swiper-slide blockSlide">
+                            <div class=" sale-product ">
+                                <div class="text-white">SALE</div>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                            <div class=" text-center ">
+                                <img src="./img/img/s-l1600_1.png" alt="">
+                            </div>
+                            <div class=" text-center">
+                                <p>Спасательное <br> снаряжение</p>
+                            </div>
+                            <div class=" text-center ">
+                                <p class="fw-bold">нет в наличии</p>
+                            </div>
+                            <div class="icon text-center ">
+                                <a href="">Сообщить о поступлении</a>
+                                <div class="">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </div>
+                            </div>
+                            <div class="SeeMore">
+                                <h6 class="text-dark">посмотреть товар</h6>
+                            </div>
+                        </div>
+                        <div class="swiper-slide blockSlide ">
+                            <div class=" text-end">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                            <div class=" text-center ">
+                                <img src="./img/img/cq5dam.web.768_1.png" alt="">
+                            </div>
+                            <div class=" text-center">
+                                <p>Водонепроницаемый <br> Рюкзак</p>
+                            </div>
+                            <div class=" text-center">
+                                <h3 class="fw-bold">9 800 &#8381;</h3>
+                            </div>
+                            <div class="icon text-end ">
+                                <div class="blockIcon">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </div>
+                            </div>
+                            <div class="SeeMore">
+                                <h6 class="text-dark">посмотреть товар</h6>
+                            </div>
+                        </div>
+                        <div class="swiper-slide blockSlide">
+                            <div class=" sale-product ">
+                                <div class="text-white">SALE</div>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                            <div class=" text-center ">
+                                <img src="./img/img/55a4f760715a1_1.png" alt="">
+                            </div>
+                            <div class=" text-center">
+                                <p>Спасательный жилет BRP <br> Men`s Airflow PFD</p>
+                            </div>
+                            <div class=" text-center">
+                                <h3 class="fw-bold">6 900 &#8381;</h3>
+                            </div>
+                            <div class="icon text-end ">
+                                <div class="blockIcon">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </div>
+                            </div>
+                            <div class="SeeMore">
+                                <h6 class="text-dark">посмотреть товар</h6>
+                            </div>
+                        </div>
+                        <div class="swiper-slide blockSlide">
+                            <div class=" text-end">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                            <div class=" text-center ">
+                                <img src="./img/img/s-l225_1.png" alt="">
+                            </div>
+                            <div class=" text-center">
+                                <p>BRP Audio-Premium <br> System</p>
+                            </div>
+                            <div class=" text-center ">
+                                <h3 class="fw-bold">68 000 &#8381;</h3>
+                            </div>
+                            <div class="icon text-end ">
+                                <div class="blockIcon">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </div>
+                            </div>
+                            <div class="SeeMore">
+                                <h6 class="text-dark">посмотреть товар</h6>
+                            </div>
+                        </div>
+                        <div class="swiper-slide blockSlide">
+                            <div class=" sale-product ">
+                                <div class="text-white">SALE</div>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                            <div class=" text-center ">
+                                <img src="./img/img/s-l1600_1.png" alt="">
+                            </div>
+                            <div class=" text-center">
+                                <p>Спасательное <br> снаряжение</p>
+                            </div>
+                            <div class=" text-center ">
+                                <p class="fw-bold">нет в наличии</p>
+                            </div>
+                            <div class="icon text-center ">
+                                <a href="">Сообщить о поступлении</a>
+                                <div class="">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </div>
+                            </div>
+                            <div class="SeeMore">
+                                <h6 class="text-dark">посмотреть товар</h6>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev" id="buttonPrev"></div>
+                    <div class="swiper-button-next" id="buttonNext"></div>
+
+                    <!-- If we need scrollbar -->
+                    <div class="swiper-scrollbar"></div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-profile22" role="tabpanel" aria-labelledby="pills-profile-tab">
+
+            </div>
+            <div class="tab-pane fade" id="pills-contact23" role="tabpanel" aria-labelledby="pills-contact-tab">3</div>
+            <div class="tab-pane fade" id="pills-home24" role="tabpanel" aria-labelledby="pills-home-tab">4</div>
+            <div class="tab-pane fade" id="pills-profile25" role="tabpanel" aria-labelledby="pills-profile-tab">5</div>
+            <div class="tab-pane fade" id="pills-contact26" role="tabpanel" aria-labelledby="pills-contact-tab">6</div>
+        </div>
+
+
+
+    </div>
+
+    <!-- КНОПКА  -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 mt-3 text-center ">
+                <button type="button" class="btn text-dark btn-secondary">ПОКАЗАТЬ ЕЩЕ</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- footer -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="row mt-5 mb-5 ">
+                    <div class="col-lg-4 fw-bold">
+                        <p>Подпишитесь на нашу рассылку <br> и узнавайте о акция быстрее</p>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control bg-white" placeholder="Введите ваш e-mail:"
+                                aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <button class="btn btn-primary" type="button" id="button-addon2">ОТПРАВИТЬ</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <ul>
+                            <li class="fw-bold">Информация</li>
+                            <li>О компании</li>
+                            <li>Контакты</li>
+                            <li>Акции</li>
+                            <li>Магазины</li>
+
+                        </ul>
+                    </div>
+                    <div class="col-lg-4">
+                        <ul class="ps-4">
+                            <li class="fw-bold ps-4">Интернет-магазин</li>
+                            <li class="ps-4">Доставка и самовывоз</li>
+                            <li class="ps-4">Оплата</li>
+                            <li class="ps-4">Возврат-обмен</li>
+                            <li class="ps-4">Новости</li>
+
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 d-flex align-items-center justify-content-between ">
+                        <i class="fa-brands fa-instagram fa-2x"></i> <i class="fa-brands fa-vk fa-2x"></i> <i
+                            class="fa-brands fa-facebook fa-2x"></i> <i class="fa-brands fa-youtube fa-2x"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-lg-4"></div>
+                <div class="col-lg-2 ">
+
+                    <li class="ps-4"> <cite title="Source Title">Договор оферты</cite> </li>
+
+                </div>
+                <div class="col-lg-6 mb-5">
+
+                    <li class="fs-6 "><cite title="Source Title">Политика обработки персональных данных</cite> </li>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
